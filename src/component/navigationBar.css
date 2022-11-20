@@ -1,0 +1,30 @@
+.logo-div{
+    display: flex;
+    flex-direction: row;
+    float: left;
+    justify-content: center;
+    margin-left: 15px;
+}
+.logo{
+    display: inline-block;
+    align-self: flex-end;
+    color: white;
+
+}
+.logo-div label{
+    display: inline-block;
+    margin: 0;
+    color: white;
+}
+.navBar{
+    background: #3f51b5;
+    height: 40px;
+}
+.search-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login{
+    background-color: #f50057;
+}
