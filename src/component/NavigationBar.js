@@ -12,7 +12,10 @@ function NavigationBar() {
                 <label>upGard E-shop</label>
             </div>
             <div className="search-div">
-            <SearchIcon/><input type="text"></input>
+              <div class="form-group has-search">
+              <span class="fa fa-search form-control-feedback"></span>
+              <input type="text" class="form-control" placeholder="Search"/>
+            </div> 
             </div>
 
             <div>
